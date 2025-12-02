@@ -1,0 +1,153 @@
+/* Login.css */
+body {
+  background: linear-gradient(135deg, #1f1f1f, #2c2c2c);
+  color: #f0f0f0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.login-container {
+  max-width: 400px;
+  margin: auto;
+  margin-top: 80px;
+  padding: 30px;
+  background-color: #2a2a2a;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.login-container:hover {
+  transform: scale(1.02);
+}
+
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #00ffff;
+}
+
+.form-control {
+  background-color: #1f1f1f;
+  border: 1px solid #444;
+  color: #fff;
+  transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #00ffff;
+  box-shadow: 0 0 5px #00ffff;
+}
+
+.btn-primary {
+  background-color: #00ffff;
+  border: none;
+  color: #1f1f1f;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #00cccc;
+}
+/* Fondo animado */
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', sans-serif;
+  animation: backgroundShift 10s infinite alternate;
+}
+
+@keyframes backgroundShift {
+  0% { filter: hue-rotate(0deg); }
+  100% { filter: hue-rotate(360deg); }
+}
+
+/* Contenedor principal */
+.login-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* Caja del login */
+.login-box {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  animation: fadeInUp 1s ease-out;
+  width: 400px;
+}
+
+/* Título */
+.login-title {
+  text-align: center;
+  color: #00ffff;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  text-shadow: 0 0 10px #00ffff;
+}
+
+/* Formulario */
+.login-form .form-group {
+  margin-bottom: 20px;
+}
+
+.login-form label {
+  color: #fff;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 15px;
+  border: 2px solid #00ffff;
+  border-radius: 20px;
+  background: transparent;
+  color: #fff;
+  outline: none;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.login-form input:focus {
+  border-color: #ff00ff;
+  box-shadow: 0 0 10px #ff00ff;
+}
+
+/* Botón */
+.login-button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(45deg, #ff00cc, #3333ff);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px #ff00cc;
+}
+
+/* Animación de entrada */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

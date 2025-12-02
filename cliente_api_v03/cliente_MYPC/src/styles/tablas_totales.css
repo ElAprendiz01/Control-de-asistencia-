@@ -1,0 +1,61 @@
+.grid-opciones {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  padding: 60px;
+  background: linear-gradient(145deg, #0f111a, #1a1c2c);
+  border-radius: 16px;
+  box-shadow: 0 0 60px rgba(0,255,255,0.2);
+  max-height: 85vh;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+
+.card-opcion {
+  background: radial-gradient(circle at top left, #1f2235, #0f111a);
+  color: #fff;
+  padding: 30px;
+  border-radius: 16px;
+  text-decoration: none;
+  box-shadow: 0 0 25px rgba(0,255,255,0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+}
+
+.card-opcion:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 40px rgba(0,255,255,0.4);
+}
+
+.icono-opcion {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #00ffff;
+  text-shadow: 0 0 15px #00ffff;
+}
+
+.titulo-opcion {
+  font-size: 1.6rem;
+  margin-bottom: 12px;
+  color: #00ffff;
+  text-shadow: 0 0 8px #00ffff;
+}
+
+.descripcion-opcion {
+  font-size: 1.1rem;
+  color: #ccc;
+}
+
+/* Scrollbar mejorado */
+.grid-opciones::-webkit-scrollbar {
+  width: 10px;
+}
+
+.grid-opciones::-webkit-scrollbar-thumb {
+  background-color: #00ffff;
+  border-radius: 5px;
+}
+
+.grid-opciones::-webkit-scrollbar-track {
+  background-color: #1a1c2c;
+}

@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dell\\Desktop\\Taller de Desarrollo Wed Entorno 1Servidor\\Taller de Desarrollo Wed Entorno Servidor\\API_ASISTENCIA_ESTUDIANTIL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8A82B8ED-6DD7-4899-85B0-22D67366384E}|API_ASISTENCIA_ESTUDIANTIL\\API_ASISTENCIA_ESTUDIANTIL.csproj|c:\\users\\dell\\desktop\\taller de desarrollo wed entorno 1servidor\\taller de desarrollo wed entorno servidor\\api_asistencia_estudiantil\\api_asistencia_estudiantil\\controllers\\cls_estadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A82B8ED-6DD7-4899-85B0-22D67366384E}|API_ASISTENCIA_ESTUDIANTIL\\API_ASISTENCIA_ESTUDIANTIL.csproj|solutionrelative:api_asistencia_estudiantil\\controllers\\cls_estadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A82B8ED-6DD7-4899-85B0-22D67366384E}|API_ASISTENCIA_ESTUDIANTIL\\API_ASISTENCIA_ESTUDIANTIL.csproj|c:\\users\\dell\\desktop\\taller de desarrollo wed entorno 1servidor\\taller de desarrollo wed entorno servidor\\api_asistencia_estudiantil\\api_asistencia_estudiantil\\controllers\\cls_asignaturascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A82B8ED-6DD7-4899-85B0-22D67366384E}|API_ASISTENCIA_ESTUDIANTIL\\API_ASISTENCIA_ESTUDIANTIL.csproj|solutionrelative:api_asistencia_estudiantil\\controllers\\cls_asignaturascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cls_EstadosController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Taller de Desarrollo Wed Entorno 1Servidor\\Taller de Desarrollo Wed Entorno Servidor\\API_ASISTENCIA_ESTUDIANTIL\\API_ASISTENCIA_ESTUDIANTIL\\Controllers\\Cls_EstadosController.cs",
+              "RelativeDocumentMoniker": "API_ASISTENCIA_ESTUDIANTIL\\Controllers\\Cls_EstadosController.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Taller de Desarrollo Wed Entorno 1Servidor\\Taller de Desarrollo Wed Entorno Servidor\\API_ASISTENCIA_ESTUDIANTIL\\API_ASISTENCIA_ESTUDIANTIL\\Controllers\\Cls_EstadosController.cs",
+              "RelativeToolTip": "API_ASISTENCIA_ESTUDIANTIL\\Controllers\\Cls_EstadosController.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAIwAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T03:08:02.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cls_AsignaturasController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Taller de Desarrollo Wed Entorno 1Servidor\\Taller de Desarrollo Wed Entorno Servidor\\API_ASISTENCIA_ESTUDIANTIL\\API_ASISTENCIA_ESTUDIANTIL\\Controllers\\Cls_AsignaturasController.cs",
+              "RelativeDocumentMoniker": "API_ASISTENCIA_ESTUDIANTIL\\Controllers\\Cls_AsignaturasController.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Taller de Desarrollo Wed Entorno 1Servidor\\Taller de Desarrollo Wed Entorno Servidor\\API_ASISTENCIA_ESTUDIANTIL\\API_ASISTENCIA_ESTUDIANTIL\\Controllers\\Cls_AsignaturasController.cs",
+              "RelativeToolTip": "API_ASISTENCIA_ESTUDIANTIL\\Controllers\\Cls_AsignaturasController.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAF8AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T03:07:18.926Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
